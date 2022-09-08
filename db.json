@@ -1,14 +1,36 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "employees": [
+    {
+      "name": "Martin",
+      "lastname": "Posso",
+      "project": 1,
+      "id": 1
+    },
+    {
+      "name": "Jorge",
+      "lastname": "Galarza",
+      "project": 2,
+      "id": 2
+    },
+    {
+      "name": "Suany",
+      "lastname": "Chalan",
+      "project": 2,
+      "id": 3
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "projects": [
+    {
+      "name": "No Way Home",
+      "id": 1
+    },
+    {
+      "name": "EndGame",
+      "id": 2
+    },
+    {
+      "name": "Home Run",
+      "id": 3
+    }
+  ]
 }
